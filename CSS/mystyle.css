@@ -1,0 +1,65 @@
+body {
+    background-color: #fff;
+}
+
+.header {
+	width: 100%; /*stretches to 100% of the browser*/
+	height: 71px;
+	margin: 0 auto;
+}
+
+.logo, 
+.headerlinks {
+	position: absolute;
+	width: 945px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 325px;
+	margin-right: 325px;
+}
+
+.logo {
+	width: 26px; 
+	height: 70px;
+}
+
+.headerlinks > li {
+	display: inline-block;
+	float: right;
+	padding: 10px 10px 10px 10px;
+	vertical-align: middle;
+	cursor: pointer;
+	color: Gray;
+}
+
+
+.introduction {
+	background-image: url('../Images/first-background.jpg');
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+
+.intro-header, 
+.intro-subheader {
+	text-align: center;
+	color: red;
+	padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+
+.intro-header {
+    margin-top: -31rem;
+    font-size: 3.125rem;
+    font-weight: 300;
+
+}
+
+
+.intro-subheader {
+	margin-top: 1.25rem;
+    font-size: 1.563rem;
+    font-weight: 100;
+}
