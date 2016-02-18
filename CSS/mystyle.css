@@ -2,6 +2,7 @@ body {
     background-color: #fff;
 }
 
+/*nav bar*/
 .header {
 	width: 100%; /*stretches to 100% of the browser*/
 	height: 71px;
@@ -35,7 +36,7 @@ body {
 	color: LightGray;
 }
 
-
+/*Intro section*/
 .introduction {
 	background-image: url('../Images/first-background.jpg');
 	background-position: center bottom;
@@ -81,3 +82,39 @@ body {
     border-style: none;
     border-radius: 4px;
 }
+
+
+/*below fold section*/
+
+
+.below-header {
+	text-align: center;
+    margin: 100px;
+    min-width: 980px;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+.icon-list > li {
+	height: 127px;
+	width: 127px;
+	display: inline-block;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
